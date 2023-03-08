@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>SignUp</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.png">
 	<meta name="viewport" content="width=device-width", initial-scale="1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -34,11 +35,11 @@
 		<a href="index.html"><i class="fa-solid fa-xmark closemark"></i></a>
 		<h2>SIGN UP & GET 40% OFF*</h2>
 		<p>Signup today for free and be the first to hear of special promotions, new arrivals, designer and offers news.</p>
-		<form>
+		<form name="myForm">
 			<input type="text" name="name" placeholder="Enter Your Name" required><br>
 			<input type="email" name="email" placeholder="Enter Email Address" required><br>
 			<input type="password" name="password" placeholder="Enter Password" required><br>
-			<button class="normal">SIGN UP</button>
+			<button class="normal" onclick="validateForm()">SIGN UP</button>
 		</form>
 	</div>
 
