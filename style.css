@@ -989,6 +989,59 @@ footer .copyright {
 	color: #000;
 }
 
+/* --------------- sign up page ------------------*/
+
+#signup-form {
+	border: 1px solid white;
+	border-radius: 20px;
+	max-width: 700px;
+	padding: 50px;
+	margin: auto;
+	margin-top: 150px;
+	text-align: center;
+	background-color: rgba(30,30,30,0.7);
+	position: relative;
+}
+
+#signup-form .closemark {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-size: 22px;
+	color: white;
+}
+
+#signup-form h2 {
+	font-size: 38px;
+	color: white;
+}
+
+#signup-form p {
+	font-size: 16px;
+	color: white;
+}
+
+#signup-form input {
+	width: 80%;
+	padding: 7px;
+	margin-bottom: 15px;
+	background-color: transparent;
+	color: white;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+#signup-form button {
+	background-color: #2370f4;
+	color: white;
+}
+
+#signup-form button:hover {
+	background-color: white;
+	color: black;
+}
+
 /* --------------- start media query ---------------- */
 
 /* home page */
@@ -1196,6 +1249,24 @@ footer .copyright {
 	#about-head div {
 		padding-left: 0px;
 		width: 100%;
+	}
+
+	/* sign up page */
+
+	#signup-form {
+		padding: 40px;
+	}
+
+	#signup-form h2 {
+		font-size: 28px;
+	}
+
+	#signup-form p {
+		font-size: 16px;
+	}
+
+	#signup-form input {
+		font-size: 16px;
 	}
 }
 
@@ -1407,6 +1478,25 @@ footer .copyright {
 	#form-details form {
 		width: 100%;
 		margin-bottom: 30px;
+	}
+
+	/* sign up page */
+
+	#signup-form {
+		padding: 10px;
+		padding-top: 40px;
+	}
+
+	#signup-form h2 {
+		font-size: 16px;
+	}
+
+	#signup-form p {
+		font-size: 12px;
+	}
+
+	#signup-form input {
+		font-size: 12px;
 	}
 }
 
