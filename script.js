@@ -25,8 +25,7 @@ function validateForm() {
 
 
   if (x.match(letters)) {
-    alert("SignIn Successful");
-    // console.log("done....")
+    console.log("done....")
   }
   else {
     alert("Name must be filled out properly");
@@ -35,12 +34,14 @@ function validateForm() {
 
   if (y.match(mailformat)) {
     console.log("done....")
-
-
   }
   else {
     alert("You have entered an invalid email address!");
 
+  }
+
+  if (x.match(letters) && y.match(mailformat)) {
+    alert("signin successful")
   }
 }
 
