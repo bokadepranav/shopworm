@@ -251,7 +251,6 @@ body {
 
 /* --------------- home page --------------- */
 
-
 #hero {
 	background-image: url("img2/catalog-slider-1.jpg");
 	height: 90vh;
@@ -361,21 +360,16 @@ body {
 	margin: 15px 0px;
 	transition: 0.2s ease;
 	position: relative;
-	overflow: hidden;
 }
 
 #product1 .pro:hover {
-	box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+	box-shadow: 20px 20px 30px rgba(0,0,0,0.15);
 }
 
-#product1 .pro img:hover {
-	transform: scale(1.05);
-}
 
 #product1 .pro img {
 	width: 100%;
 	border-radius: 20px;
-	transition: 0.3s all ease-in-out;
 }
 
 #product1 .pro .des {
