@@ -6,7 +6,7 @@
 	<link rel="icon" type="image/x-icon" href="img/favicon.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+	<script type="text/javascript" src="validate.js"></script>
 </head>
 <body>
 
@@ -97,7 +97,7 @@
 			</div>
 		</div>
 		<div class="map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.048248398174!2d73.85328221483853!3d19.193094887020894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd3f8514d939fd%3A0x9c181be126c73de1!2sShivneri%20Fort!5e0!3m2!1sen!2sin!4v1676796918031!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387.32448592923726!2d77.00747032341816!3d20.685641710249232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd732071e344341%3A0xd2502919fa926cc9!2sPimpaleshwar%20Hanuman%20Temple!5e1!3m2!1sen!2sin!4v1679236159120!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
 	</section>
 
@@ -107,14 +107,14 @@
 
 	<section id="form-details">
 
-		<form action="">
+		<form action="contactus.php">
 			<span>LEAVE MESSAGE</span>
 			<h2>We love to hear from you</h2>
-			<input type="text" placeholder="Your Name" name="">
-			<input type="email" placeholder="Email" name="">
-			<input type="text" placeholder="Subject" name="">
-			<textarea cols="30" rows="5" placeholder="Your Message"></textarea>
-			<button class="normal">Submit</button>
+			<input type="text" placeholder="Your Name" name="name">
+			<input type="email" placeholder="Email" name="email">
+			<input type="text" placeholder="Subject" name="subject">
+			<textarea cols="30" rows="5" placeholder="Your Message" name="message"></textarea>
+			<input type="submit" name="btn" value="Submit" style="background-color: #2370f4; color: #fff; width: 15%; border-radius: 5px;">
 		</form>
 
 		<div class="people">

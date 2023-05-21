@@ -30,16 +30,35 @@
 				</div>
 			</a>
 			<i class="fa-solid fa-heart" id="heart"></i>
-			<a href="cart.html"><i class="fa-solid fa-bag-shopping" id="heart"></i></a>
+			<i class="fa-solid fa-bag-shopping" id="cart-icon"></i>
 		</div>
 		
 	</section>
 
 <!---->
 
+<!-- cart section -->
+	<!-- <script type="text/javascript" src="cart.js"></script> -->
+	<section class="cart-container">
+			<h3 class="cart-title">Your Cart</h3>
+			<div class="cart-content">
+				
+			</div>
+			<div class="total">
+				<div class="total-title">Total</div>
+				<div class="total-price">$0</div>
+			</div>
+			<!-- buy button -->
+			<button type="button" class="btn-buy">Buy Now</button>
+			<!-- cart close -->
+			<i class="fa-solid fa-x" id="close-cart"></i>
+
+	</section>
+<!--  -->
+
 <!-- header -->
 
-	<section id="header">
+	<section id="header" style="z-index: 99;">
 		<div class="searchbar">
 			<input type="text" placeholder="Search for product, categories, brand, etc." name="">
 			<button><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -105,10 +124,10 @@
 		<p>Summer Collection New Modern Design</p>
 		<div class="pro-container">
 			<div class="pro">
-				<img src="img2/products/1.jpg">
+				<img src="img2/products/1.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Men Hooded Navy Blue T-Shirt</h5>
+					<h5 class="product-title">Men Hooded Navy Blue T-Shirt</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -116,15 +135,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img2/products/2.jpg">
+				<img src="img2/products/2.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Funky Silver Glasses</h5>
+					<h5 class="product-title">Funky Silver Glasses</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -132,15 +151,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img2/products/3.jpg">
+				<img src="img2/products/3.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Brown Quilted Satchel</h5>
+					<h5 class="product-title">Brown Quilted Satchel</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -148,15 +167,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img2/products/4.png">
+				<img src="img2/products/4.png" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Men's Denim Jacket</h5>
+					<h5 class="product-title">Men's Denim Jacket</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -164,15 +183,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img2/products/5.png">
+				<img src="img2/products/5.png" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Women Brown Synthetic Top Boots</h5>
+					<h5 class="product-title">Women Brown Synthetic Top Boots</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -180,15 +199,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img2/products/6.jpg">
+				<img src="img2/products/6.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Men Black Analogue Watch</h5>
+					<h5 class="product-title">Men Black Analogue Watch</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -196,15 +215,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img2/products/7.jpg">
+				<img src="img2/products/7.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Black Multifunctional Watch</h5>
+					<h5 class="product-title">Black Multifunctional Watch</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -212,15 +231,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img2/products/8.png">
+				<img src="img2/products/8.png" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Men Brown Synthetic Shoes</h5>
+					<h5 class="product-title">Men Brown Synthetic Shoes</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -228,9 +247,9 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 		</div>
 	</section>
@@ -242,7 +261,7 @@
 	<section id="banner" class="section-m1">
 		<h4>Repair Services</h4>
 		<h2>Up to <span>70% off</span> - All T-Shirts & Accessories</h2>
-		<button class="normal">Explore More</button>
+		<a href="shop.html"><button class="normal">Explore More</button></a>
 	</section>
 
 <!---->
@@ -254,10 +273,10 @@
 		<p>Summer Collection New Modern Design</p>
 		<div class="pro-container">
 			<div class="pro">
-				<img src="img/products/f1.jpg">
+				<img src="img/products/f1.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Men's Cartoon Shirt</h5>
+					<h5 class="product-title">Men's Cartoon Shirt</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -265,15 +284,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img/products/f2.jpg">
+				<img src="img/products/f2.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Floral Green leaves Shirt</h5>
+					<h5 class="product-title">Floral Green leaves Shirt</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -281,15 +300,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img/products/f3.jpg">
+				<img src="img/products/f3.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Red Printed Floral Shirt</h5>
+					<h5 class="product-title">Red Printed Floral Shirt</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -297,15 +316,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img/products/f4.jpg">
+				<img src="img/products/f4.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Men's White & Pink Shirt</h5>
+					<h5 class="product-title">Men's White & Pink Shirt</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -313,15 +332,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img/products/f5.jpg">
+				<img src="img/products/f5.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Navy Blue Printed Shirt</h5>
+					<h5 class="product-title">Navy Blue Printed Shirt</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -329,15 +348,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img/products/f6.jpg">
+				<img src="img/products/f6.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Men's Orange & Blue Combo</h5>
+					<h5 class="product-title">Men's Orange & Blue Combo</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -345,15 +364,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img/products/f7.jpg">
+				<img src="img/products/f7.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Women's Grey Solid Trouser</h5>
+					<h5 class="product-title">Women's Grey Solid Trouser</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -361,15 +380,15 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 			<div class="pro">
-				<img src="img/products/f8.jpg">
+				<img src="img/products/f8.jpg" class="product-img">
 				<div class="des">
 					<span>adidas</span>
-					<h5>Women Printed Blouson Top</h5>
+					<h5 class="product-title">Women Printed Blouson Top</h5>
 					<div class="star">
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -377,9 +396,9 @@
 						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
 					</div>
-					<h4>$78</h4>
+					<h4 class="price">$78</h4>
 				</div>
-				<a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+				<i class="fa-solid fa-cart-shopping cart add-cart"></i>
 			</div>
 		</div>
 	</section>
@@ -389,17 +408,17 @@
 <!-- Sm Banner-->
 
 	<section id="sm-banner" class="section-p1">
-		<div class="banner-box">
+		<div class="banner-box" style="width: 48%">
 			<h4>crazy deals</h4>
 			<h2>buy 1 get 1 free</h2>
 			<span>The best classic dress is on sale at cara</span>
-			<button class="white">Learn More</button>
+			<a href="blog.html"><button class="white">Learn More</button></a>
 		</div>
-		<div class="banner-box banner-box2">
+		<div class="banner-box banner-box2" style="width: 48%">
 			<h4>spring/summer</h4>
 			<h2>upcoming season</h2>
 			<span>The best classic dress is on sale at cara</span>
-			<button class="white">Learn More</button>
+			<a href="blog.html"><button class="white">Learn More</button></a>
 		</div>
 	</section>
 
